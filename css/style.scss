@@ -38,7 +38,7 @@
                 margin-top:10px;
                li{
                    a{
-                       margin-right: 10px;
+                       margin-right: 16px;
                        color:#666;
                        font-size:15px;
                        font-weight: 600;
@@ -51,17 +51,52 @@
         }
         #info{
             .info-menu{
-           padding:33px;
+           padding:23px;
           margin-right:-16px;
+          .nav-icon{
+              font-size:27px;
+              color:#005fb5;
+             
+          }
+          .information{
+            span{
+                color:#656565;
+                display: block;
+                font-size:16px;
+                font-weight: bold;
+            } 
+            font-size:15px;
+          }
+       
             }
             .logo{
-              width:130px;
+              width:135px;
+              margin-top:8px;
                 img{
                     width:100%;
                     margin-left:30px;
                 }
             }
         
+        }
+        nav{
+            padding:5px;
+            background-color: #005fb5;
+            ul{
+                display:flex;
+                li{
+                    margin-top:10px;
+                    a{
+                        margin-right: 19px;
+                        font-size:17px;
+                        color:white;
+                        &:hover{
+                           color:#ffab03;
+                            transition: 0.4s;
+                        }
+                    }
+                }
+            }
         }
     }
 }
