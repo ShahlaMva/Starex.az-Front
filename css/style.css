@@ -1,0 +1,46 @@
+@font-face {
+  * {
+    font-family: "Fira Sans", sans-serif;
+    src: url("../fonts/FiraSans-Regular.ttf");
+  }
+}
+* li {
+  list-style: none;
+}
+* a {
+  text-decoration: none;
+}
+* header #top-nav {
+  padding: 9px;
+  background-color: #f7f7f7;
+}
+* header #top-nav .social-icon ul li a i {
+  font-size: 17px;
+}
+* header #top-nav .account ul .profile {
+  border-right: 1px solid black;
+}
+* header #top-nav ul {
+  display: flex;
+  margin-top: 10px;
+}
+* header #top-nav ul li a {
+  margin-right: 10px;
+  color: #666;
+  font-size: 15px;
+  font-weight: 600;
+}
+* header #top-nav ul li a:hover {
+  color: #005fb5;
+}
+* header #info .info-menu {
+  padding: 33px;
+  margin-right: -16px;
+}
+* header #info .logo {
+  width: 130px;
+}
+* header #info .logo img {
+  width: 100%;
+  margin-left: 30px;
+}/*# sourceMappingURL=style.css.map */
