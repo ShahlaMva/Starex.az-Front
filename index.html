@@ -19,11 +19,13 @@
                 <div class="row">
                     <div class="col-9">
                         <div class="row">
-                            <div class="col-2 social-icon"><ul>
-                                <li><a href=""><i class="fab fa-facebook"></i></a></li>
-                                <li><a href=""><i class="fab fa-instagram"></i></a></li>
-                                <li><a href=""><i class="fab fa-twitter"></i></a></li>
-                            </ul></div>
+                            <div class="col-2 social-icon">
+                                <ul>
+                                    <li><a href=""><i class="fab fa-facebook"></i></a></li>
+                                    <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                                    <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                                </ul>
+                            </div>
                             <div class="col-9">
                                 <ul>
                                     <li><a href="">Haqqımızda</a></li>
@@ -39,7 +41,7 @@
                     <div class="col-3 account">
                         <ul class="d-flex justify-content-end">
                             <li class="profile"><a href="">Şəxsi kabinet</a></li>
-                            <li ><a style="margin-left:6px;"href="">Qeydiyyat</a></li>
+                            <li><a style="margin-left:6px;" href="">Qeydiyyat</a></li>
                         </ul>
                     </div>
                 </div>
@@ -50,8 +52,8 @@
             <div class="container">
                 <div class="row  d-flex justify-content-between">
                     <div class="col-2 logo d-flex justify-content-end">
-                        <a href="">  <img src="img/logo/starex-400x400.png" alt=""></a>
-                      
+                        <a href=""> <img src="img/logo/starex-400x400.png" alt=""></a>
+
                     </div>
                     <div class="col-6 info-menu">
                         <div class="row">
@@ -102,34 +104,68 @@
         <section id="top-image">
             <div class="background-image">
                 <img src="img/background/background-starex.webp" alt="">
-                <div class="container">
+                <div class="container content">
                     <div class="row">
                         <div class="title">
-                            <h4><span>Türkiyədən</span> və <span>Amerikadan</span> alış-veriş etmək</h4>
-                            <h2>İndi daha <span>asan oldu</span></h2>
+                            <h2><span>Türkiyədən</span> və <span>Amerikadan</span> alış-veriş etmək</h2>
+                            <h1>İndi daha <span>asan oldu</span></h1>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-4"></div>
-                        <div class="col-4"></div>
-                        <div class="col-4"></div>
+                    <div class="row top-search d-flex justify-content-center">
+                        <div class="col-4 list-country">
+                            <select name="" id="">
+                                <option value="">Türkiyə</option>
+                                <option value="">Amerika</option>
+                                <option value="">Çin</option>
+                                <option value="">Almaniya</option>
+                                <option value="">Honq-Konq</option>
+
+
+
+
+                            </select>
+                        </div>
+                        <div class="col-4 number-input">
+                            <div class="row">
+                                <div class="col-8">
+                                    <input type="number"placeholder="Çəkini qeyd edin">
+                                </div>
+                                <div class="col-2 list-weight">
+                                    <select name="" id="">
+                                        <option value="">KQ</option>
+                                        <option value="">QR</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 delivery">
+                            <span>
+                                ÇATDIRILMA QİYMƏTİ
+                            </span>
+                            <span class="result">$0.0</span>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
         <section id="feature">
             <div class="container">
-                <div class="row">
-                    <div class="col-6">
-                        <h1>Starex necə işləyir</h1>
+                <div class="row d-flex justify-content-center">
+                    <div class="col-6 title">
+                        <h1>Starex necə İşləyİr</h1>
+                    </div>
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-2 underline">
+
+                        </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="title">Türkiyə, Amerika, Çin və Almaniyadan sifariş edin, alış-veriş xərcləriniz 2 dəfə
+                    <div class="sub-title d-flex justify-content-center">Türkiyə, Amerika, Çin və Almaniyadan sifariş edin, alış-veriş xərcləriniz 2 dəfə
                         az olsun.</div>
                 </div>
-                <div class="row">
-                    <div class="col-4">
+                <div class="row mt-5 text-center d-flex justify-content-between">
+                    <div class="col-4 border-end">
                         <div class="row icon"><i class="fas fa-cube"></i></div>
                         <div class="row">
                             <div class="feature-title">
@@ -139,7 +175,7 @@
                                 keçin.</span>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-4 border-end">
                         <div class="row icon"><i class="fas fa-clipboard-list"></i></div>
                         <div class="row">
                             <div class="feature-title">
@@ -172,7 +208,7 @@
                     <div class="col-6">
                         <div class="advantage-title">Əsas üstünlüklərimiz</div>
                         <div class="row">
-                            <div class="col-2"><i class="fas fa-truck-loading"></i></div>
+                            <div class="col-2"><i class="fas fa-shipping-fast"></i></div>
                             <div class="col-8">
                                 <h5>Sürətli və təhlükəsiz çatdırılma</h5>
                                 <p>Bağlamanız bizim xaricdəki əməkdaşlarımız tərəfindən təhvil alındıqdan sonra göndəriş
@@ -260,14 +296,16 @@
                 </div>
             </div>
         </section>
-     
+
     </main>
     <footer>
         <div class="container">
             <div class="row">
                 <div class="col-8">
                     <div class="row">
-                        <div class="col-4"><div class="logo"><a href=""><img src="img/logo/starex-logo-white.png" alt=""> </a> </div></div>
+                        <div class="col-4">
+                            <div class="logo"><a href=""><img src="img/logo/starex-logo-white.png" alt=""> </a> </div>
+                        </div>
                         <div class="col-4">
                             <ul>
                                 <li><a href="">Haqqımızda</a></li>
@@ -292,8 +330,8 @@
                 </div>
             </div>
             <div class="row end-footer">
-<div class="col-6">© 2020 “STAREX" MMC | Bütün Hüquqlar Qorunur</div>
-<div class="col-4"><img src="img/footer/1543498815_1022246_card.png" alt=""></div>
+                <div class="col-6">© 2020 “STAREX" MMC | Bütün Hüquqlar Qorunur</div>
+                <div class="col-4"><img src="img/footer/1543498815_1022246_card.png" alt=""></div>
             </div>
         </div>
     </footer>

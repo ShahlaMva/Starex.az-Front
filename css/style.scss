@@ -1,7 +1,9 @@
-*{ @font-face{
+@font-face{
     font-family:'Fira Sans', sans-serif;
     src:url("../fonts/FiraSans-Regular.ttf")
 }
+*{ 
+   
     li{
         list-style: none;
     }
@@ -95,6 +97,132 @@
                             transition: 0.4s;
                         }
                     }
+                }
+            }
+        }
+    }
+
+    main{
+        #top-image{
+            .background-image{
+                position: relative;
+               
+                img{
+                    width:100%;
+                    
+                }
+                .content{
+                    position: absolute;
+                    top:125px;
+                    color:white;
+                    left:111px;
+                    text-align: center;
+                    text-transform: uppercase;
+                    span{
+                        color:#ffab03;
+                    }
+                    .title{
+                        h2{
+                            font-size:45px;
+                        }
+                        h1{
+                            font-size:55px;
+                        }
+                    }
+                    .top-search{
+                        margin-top:60px;
+                        .list-country{
+                            select{
+                                width:280px;
+                                height: 55px;
+                                border-radius:38px;
+                                padding:15px;
+                                border:none;
+                            }
+                        }
+                        .number-input{
+                            input{
+                                width:270px;
+                                height: 55px;
+                                border-radius:38px;
+                                border:none;
+                                padding:15px;
+
+                            }
+                            .list-weight{
+                                select{
+                                    width:58px;
+                                    height: 54px;
+                                    border-radius:15px;
+                                    
+                                    border:none;
+                                    padding:6px;
+
+                                }
+                              
+                            }
+                           
+                        }
+                        .delivery{
+                            background-color: #ffab03;
+                           padding:13px;
+                            border-radius:27px;
+                            width:293px;
+                            font-size:17px;
+
+                            span{
+                                color:white;
+                                margin-bottom:15px;
+                                border-right:1px solid;
+                            }
+                            .result{
+                                margin-left:20px;
+                               border:none;
+                               color:black;
+                             
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        #feature{
+            color:#454545;
+            margin-top:40px;
+            .title{
+                h1{
+                    font-size:45px;
+                    text-transform: uppercase;
+                    letter-spacing: 2px;
+                    
+                }
+            }
+            .sub-title{
+                margin-top:30px;
+                font-size:20px;
+                letter-spacing: 1px;
+                    
+            }
+            .underline{
+                    
+                background-color:#ffab03;
+                width:100px;
+                height: 4px;
+                margin-top:10px;
+            }
+.feature-title{
+    margin-top:40px;
+    font-size:23px;
+    letter-spacing: 0.3px;
+}
+span{
+    font-size:14px;
+}
+            .icon{
+                i{
+                    font-size:100px;
+                    color:#005fb5;
+                    
                 }
             }
         }
