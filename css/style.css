@@ -257,6 +257,70 @@
   color: #666;
   font-size: 12px;
 }
+* main #tariffs-section {
+  background-color: #f7f7f7;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+* main #tariffs-section .tabs {
+  padding-bottom: 40px;
+}
+* main #tariffs-section .tabs .tab-button {
+  background-color: #ffab03;
+  padding: 3px 18px 3px 18px;
+  border-radius: 5px;
+}
+* main #tariffs-section .tabs .tab-button a {
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+}
+* main #tariffs-section .delivery-tariffs ul {
+  background-color: white;
+  padding-top: 12px;
+  padding-left: 9px;
+  padding-right: 9px;
+  padding-bottom: 12px;
+  border-radius: 4px;
+  box-shadow: 2px 4px 9px 4px #b8b8b8;
+}
+* main #tariffs-section .delivery-tariffs ul li a {
+  margin-right: 35px;
+  color: black;
+}
+* main #tariffs-section .delivery-tariffs ul li a img {
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+}
+* main #tariffs-section .delivery-tariffs .note {
+  padding-top: 18px;
+  padding-bottom: 18px;
+  font-size: 13px;
+  color: #005fb5;
+}
+* main #tariffs-section .price-table {
+  border-radius: 4px;
+  background-color: white;
+  box-shadow: 2px 4px 9px 4px #b8b8b8;
+}
+* main #tariffs-section .price-table .prices {
+  padding-bottom: 12px;
+  padding-top: 12px;
+  justify-content: space-between;
+}
+* main #tariffs-section .courier-tariffs .select-op {
+  justify-content: center;
+}
+* main #tariffs-section .courier-tariffs .select-op select {
+  padding-left: 0px;
+  width: 300px;
+  border-radius: 6px;
+  height: 40px;
+  border: none;
+  box-shadow: 2px 4px 9px 4px #b8b8b8;
+  color: #03618a;
+}
 * footer #main-footer {
   padding-top: 30px;
   background-color: #212529;
