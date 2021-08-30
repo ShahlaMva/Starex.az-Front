@@ -232,23 +232,23 @@
   height: 4px;
   margin-bottom: 34px;
 }
+* main .tabs {
+  padding-bottom: 40px;
+}
+* main .tabs .tab-button {
+  background-color: white;
+  padding: 3px 18px 3px 18px;
+  border-radius: 5px;
+}
+* main .tabs .tab-button a {
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+}
 * main #tariffs-section {
   background-color: #f7f7f7;
   padding-top: 60px;
   padding-bottom: 60px;
-}
-* main #tariffs-section .tabs {
-  padding-bottom: 40px;
-}
-* main #tariffs-section .tabs .tab-button {
-  background-color: #ffab03;
-  padding: 3px 18px 3px 18px;
-  border-radius: 5px;
-}
-* main #tariffs-section .tabs .tab-button a {
-  color: white;
-  font-size: 16px;
-  font-weight: 600;
 }
 * main #tariffs-section .delivery-tariffs ul {
   background-color: white;
@@ -425,6 +425,49 @@
   padding-top: 5px;
   padding-bottom: 5px;
   color: white;
+}
+* main #contact {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+* main #contact .tabs .tab-button {
+  padding: 12px 14px 12px 14px;
+}
+* main #contact ul li {
+  padding-right: 35px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+* main #contact ul li a {
+  font-size: 17px;
+  color: #656565;
+}
+* main #contact .address {
+  padding-left: 36px;
+}
+* main #contact .address li {
+  color: #656565;
+}
+* main #contact .address li i {
+  padding-right: 20px;
+  color: #005fb5;
+}
+* main #register {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+* main #register .tabs .tab-button {
+  padding: 12px 14px 12px 14px;
+}
+* main #register form label {
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+* main #register form input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid black;
 }
 * footer #main-footer {
   padding-top: 30px;

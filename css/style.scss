@@ -294,25 +294,29 @@ span{
         
           
         }
+        .tabs{
+               
+            padding-bottom:40px;
+            .tab-button{
+                // background-color:#ffab03;
+                background-color:white;
+                padding:3px 18px 3px 18px;
+                border-radius:5px;
+                
+                a{
+                    // color:white;
+                    color:black;
+                    font-size:16px;
+                    font-weight: 600;
+                }
+            }
+        }
         #tariffs-section{
             background-color: #f7f7f7;
             padding-top:60px;
             padding-bottom:60px;
            
-            .tabs{
-               
-                padding-bottom:40px;
-                .tab-button{
-                    background-color:#ffab03;
-                    padding:3px 18px 3px 18px;
-                    border-radius:5px;
-                    a{
-                        color:white;
-                        font-size:16px;
-                        font-weight: 600;
-                    }
-                }
-            }
+            
           
             .delivery-tariffs{
             //    display:none;
@@ -519,6 +523,58 @@ width: 100%;
                     padding-bottom:5px;
                     color:white;
                 };
+            }
+        }
+
+        #contact{
+            padding-top:30px;
+            padding-bottom:30px;
+            .tabs{
+               .tab-button{
+                   padding:12px 14px 12px 14px;
+               }
+            }
+            ul{
+                li{
+                    padding-right: 35px;
+                    padding-top:8px;
+                    padding-bottom:8px;
+                    a{
+                        font-size:17px;
+                        color:#656565;
+                    }
+                }
+            }
+            .address{
+                padding-left:36px;
+                li{
+                    color:#656565;
+                    i{
+                        padding-right: 20px;
+                        color:#005fb5;
+                    }
+                }
+            }
+        }
+        #register{
+            padding-top:30px;
+            padding-bottom:30px;
+            .tabs{
+                .tab-button{
+                    padding:12px 14px 12px 14px;
+                }
+            }
+            form{
+                label{
+                    display:block;
+                    margin-bottom:10px;
+                    margin-top:10px;
+                }
+                input{
+                    width:100%;
+                    border:none;
+                    border-bottom:1px solid black;
+                }
             }
         }
     }
