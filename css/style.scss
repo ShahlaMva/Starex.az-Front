@@ -532,6 +532,7 @@ width: 100%;
             .tabs{
                .tab-button{
                    padding:12px 14px 12px 14px;
+                  
                }
             }
             ul{
@@ -562,20 +563,116 @@ width: 100%;
             .tabs{
                 .tab-button{
                     padding:12px 14px 12px 14px;
+                    
                 }
+                .active{
+                    background-color: #ffab03;
+                }
+            }
+            .business{
+                position:relative;
+                bottom:30px;
             }
             form{
                 label{
                     display:block;
                     margin-bottom:10px;
-                    margin-top:10px;
+                    margin-top:16px;
+                    color:rgba(0,0,0,.4);
+                    font-size:16px;
                 }
                 input{
                     width:100%;
                     border:none;
                     border-bottom:1px solid black;
                 }
+                select{
+                    border:none;
+                    border-bottom:1px solid black;
+                    width:100%;
+                    height: 35px;
+                }
+                .small{
+                    width:13%;
+                    display: inline;
+                }
+                .select-input{
+                    width:85%;
+                }
+                .phone-prefix{
+                    width:22%;
+                }
+                span{
+                    display:block;
+                    font-size:12px;
+                    color:#656565;
+                }
+                .register-button{
+                    a{
+                        border:2px solid #005fb5;
+                           color:#005fb5;
+                           text-align: center;
+                           padding:10px 100px 10px 100px;
+                           border-radius:26px;
+                           margin-top:30px;
+                       }
+                }
+              
+
+               
             }
+        }
+        #login{
+            label{
+                margin-top:40px;
+                display:block;
+                margin-bottom:10px;
+                color:#656565;
+            }
+          input{
+              width:100%;
+              border:none;
+              border-bottom:1px black solid;
+          }
+          h2{
+              margin-top:40px;
+              color:#005fb5;
+          }
+          .links-login{
+               font-size:12px;
+               margin-top:40px;
+
+        a{
+               display:block;
+               color:#656565;
+               &:hover{
+               text-decoration: underline;
+               color:#005fb5;
+               }
+           }
+           
+          }
+          .login-btn{
+            margin-top:40px;
+            margin-bottom:50px;
+            a{
+                font-size:18px;
+                padding:14px 60px 14px 60px;
+                border:2px solid #005fb5;
+                border-radius:40px;
+                &:hover{
+                    background-color: #005fb5;
+                    color:white;
+                    transition-duration: 0.3s;
+                }
+
+
+
+            }
+
+        }
+
+          
         }
     }
     footer{

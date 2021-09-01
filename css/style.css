@@ -459,15 +459,95 @@
 * main #register .tabs .tab-button {
   padding: 12px 14px 12px 14px;
 }
+* main #register .tabs .active {
+  background-color: #ffab03;
+}
+* main #register .business {
+  position: relative;
+  bottom: 30px;
+}
 * main #register form label {
   display: block;
   margin-bottom: 10px;
-  margin-top: 10px;
+  margin-top: 16px;
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 16px;
 }
 * main #register form input {
   width: 100%;
   border: none;
   border-bottom: 1px solid black;
+}
+* main #register form select {
+  border: none;
+  border-bottom: 1px solid black;
+  width: 100%;
+  height: 35px;
+}
+* main #register form .small {
+  width: 13%;
+  display: inline;
+}
+* main #register form .select-input {
+  width: 85%;
+}
+* main #register form .phone-prefix {
+  width: 22%;
+}
+* main #register form span {
+  display: block;
+  font-size: 12px;
+  color: #656565;
+}
+* main #register form .register-button a {
+  border: 2px solid #005fb5;
+  color: #005fb5;
+  text-align: center;
+  padding: 10px 100px 10px 100px;
+  border-radius: 26px;
+  margin-top: 30px;
+}
+* main #login label {
+  margin-top: 40px;
+  display: block;
+  margin-bottom: 10px;
+  color: #656565;
+}
+* main #login input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px black solid;
+}
+* main #login h2 {
+  margin-top: 40px;
+  color: #005fb5;
+}
+* main #login .links-login {
+  font-size: 12px;
+  margin-top: 40px;
+}
+* main #login .links-login a {
+  display: block;
+  color: #656565;
+}
+* main #login .links-login a:hover {
+  text-decoration: underline;
+  color: #005fb5;
+}
+* main #login .login-btn {
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+* main #login .login-btn a {
+  font-size: 18px;
+  padding: 14px 60px 14px 60px;
+  border: 2px solid #005fb5;
+  border-radius: 40px;
+}
+* main #login .login-btn a:hover {
+  background-color: #005fb5;
+  color: white;
+  transition-duration: 0.3s;
 }
 * footer #main-footer {
   padding-top: 30px;
