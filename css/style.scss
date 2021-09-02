@@ -678,6 +678,40 @@ width: 100%;
 
           
         }
+        #dashboard{
+            padding-top:30px;
+            background-color: #f7f7f7;
+            .person-info{
+                padding:20px;
+                background-color: white;
+                
+        
+                .name{
+                    font-size:35px;
+                    
+                }
+                .dash-button{
+                    width:100%;
+                    margin-bottom:10px;
+                   &:hover{
+                    background-color:#005fb5;
+                    color:white;
+                   }
+                }
+                .balance{
+                    li{margin-top:10px;
+                        margin-right: 50px;
+                        padding:10px 23px 10px 23px;
+                        background-color:#005fb5;
+                        color:white;
+                        border-radius:5px;
+                        span{
+                            display: block;
+                        }
+                    }
+                }
+            }
+        }
     }
     footer{
         #main-footer{

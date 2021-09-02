@@ -551,6 +551,36 @@
   color: white;
   transition-duration: 0.3s;
 }
+* main #dashboard {
+  padding-top: 30px;
+  background-color: #f7f7f7;
+}
+* main #dashboard .person-info {
+  padding: 20px;
+  background-color: white;
+}
+* main #dashboard .person-info .name {
+  font-size: 35px;
+}
+* main #dashboard .person-info .dash-button {
+  width: 100%;
+  margin-bottom: 10px;
+}
+* main #dashboard .person-info .dash-button:hover {
+  background-color: #005fb5;
+  color: white;
+}
+* main #dashboard .person-info .balance li {
+  margin-top: 10px;
+  margin-right: 50px;
+  padding: 10px 23px 10px 23px;
+  background-color: #005fb5;
+  color: white;
+  border-radius: 5px;
+}
+* main #dashboard .person-info .balance li span {
+  display: block;
+}
 * footer #main-footer {
   padding-top: 30px;
   background-color: #212529;
