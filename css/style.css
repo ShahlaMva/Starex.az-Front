@@ -462,9 +462,11 @@
 * main #register .tabs .active {
   background-color: #ffab03;
 }
+* main #register .tabs .active a {
+  color: white;
+}
 * main #register .business {
   position: relative;
-  bottom: 30px;
 }
 * main #register form label {
   display: block;

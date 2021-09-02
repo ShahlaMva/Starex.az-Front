@@ -563,15 +563,19 @@ width: 100%;
             .tabs{
                 .tab-button{
                     padding:12px 14px 12px 14px;
+                 
                     
                 }
                 .active{
                     background-color: #ffab03;
+                    a{
+                        color:white;
+                    }
                 }
             }
             .business{
                 position:relative;
-                bottom:30px;
+              
             }
             form{
                 label{
