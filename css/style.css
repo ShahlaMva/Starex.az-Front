@@ -8,6 +8,9 @@
 * a {
   text-decoration: none;
 }
+* ul {
+  padding: 0px;
+}
 * header #top-nav {
   padding: 9px;
   background-color: #f7f7f7;
@@ -580,6 +583,62 @@
 }
 * main #dashboard .person-info .balance li span {
   display: block;
+}
+* main #dashboard .dashboard-menu .dashboard-links {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  background-color: white;
+}
+* main #dashboard .dashboard-menu .dashboard-links li {
+  margin-top: 10px;
+}
+* main #dashboard .dashboard-menu .dashboard-links li a {
+  color: #454545;
+  padding: 10px 20px 15px 20px;
+}
+* main #dashboard .dashboard-menu .dashboard-links li .active {
+  background-color: #ffab03;
+}
+* main #dashboard .dashboard-menu .address .tabs-list li {
+  padding: 20px 25px 10px 25px;
+}
+* main #dashboard .dashboard-menu .address .tabs-list .active {
+  background-color: white;
+}
+* main #dashboard .dashboard-menu .address .tabs-list .tab-shop {
+  padding-top: 10px;
+}
+* main #dashboard .dashboard-menu .address .tab-contents {
+  background-color: white;
+}
+* main #dashboard .dashboard-menu .address .tab-contents .content {
+  padding: 14px;
+}
+* main #dashboard .dashboard-menu .address .tab-contents .content span {
+  font-size: 16px;
+  font-weight: bold;
+  display: block;
+}
+* main #dashboard .dashboard-menu .address .tab-contents .content i {
+  font-size: 23px;
+  color: rgba(0, 0, 0, 0.2);
+}
+* main #dashboard .dashboard-menu .order {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+}
+* main #dashboard .dashboard-menu .order ul li {
+  padding: 10px 23px 10px 10px;
+}
+* main #dashboard .dashboard-menu .order ul li a {
+  color: #212529;
+}
+* main #dashboard .dashboard-menu .order ul .active {
+  background-color: #005fb5;
+}
+* main #dashboard .dashboard-menu .order ul .active a {
+  color: white;
 }
 * footer #main-footer {
   padding-top: 30px;

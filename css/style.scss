@@ -10,6 +10,9 @@
     a{
         text-decoration: none;
     }
+    ul{
+        padding:0px;
+    }
 
     header{
         #top-nav{
@@ -707,6 +710,82 @@ width: 100%;
                         border-radius:5px;
                         span{
                             display: block;
+                        }
+                    }
+                }
+            }
+            .dashboard-menu{
+             
+                .dashboard-links{
+                    margin-bottom:20px;
+                    margin-top:20px;
+                    background-color: white;
+                    li{
+                        // margin-right: 30px;
+                        margin-top:10px;
+                      
+                        a{
+                            color:#454545;
+                            padding:10px 20px 15px 20px;
+                        }
+                        .active{
+                            background-color: #ffab03;
+                           
+                        }
+                    }
+                }
+                .address{
+                    .tabs-list{
+                     li{
+                        padding: 20px 25px 10px 25px;
+                       
+                      
+                     }
+                     .active{
+                        background-color: white;
+                   }
+                     .tab-shop{
+                        padding-top:10px;
+                    }
+                    }
+                    .tab-contents{
+                    
+                     background-color: white;
+                     .content{
+                         padding:14px;
+                         span{
+                             font-size:16px;
+                             font-weight: bold;
+                             display:block;
+
+                         }
+                         i{
+                             font-size:23px;
+                             color:rgba(0,0,0,.2);
+                         }
+                     }
+                   
+                    }
+                   
+                }
+                .order{
+                    margin-top:10px;
+                    margin-bottom:10px;
+                    background-color: white;
+                    ul{
+                        li{
+                            padding:10px 23px 10px 10px;
+                           
+                            a{
+                                color:#212529;
+                            }
+                        }
+                        .active{
+                            background-color:#005fb5;
+                           a{
+                               color:white;
+                           }
+
                         }
                     }
                 }
